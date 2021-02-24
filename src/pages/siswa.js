@@ -165,7 +165,7 @@ headerConfig = () => {
             <>
             <NavBar />
             <Card>
-                <Card.Header className="card-header bg-info text-white" align={'center'}>Data siswa</Card.Header>
+                <Card.Header className="card-header bg-primary text-white" align={'center'}>Data siswa</Card.Header>
                 <Card.Body>
                 <input type="text" className="form-control mb-2" name="search" value={this.state.search} onChange={this.bind} onKeyUp={this.findsiswa} placeholder="Pencarian..." />
                 <Button variant="success" onClick={this.handleAdd}>
