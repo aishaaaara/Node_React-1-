@@ -5,6 +5,11 @@ import Home from './home'
 import Login from './login'
 import Pegawai from './pegawai'
 import Register from './register'
+import Pelanggaran from './pelanggaran'
+import Siswa from './siswa'
+import PelanggaranSiswa from './pelanggaran_siswa'
+import jurusan from './jurusan'
+
 
 
 const Pages = () => (
@@ -12,8 +17,12 @@ const Pages = () => (
         <Route exact path='/' component={Home} />
         <Route path='/login' component={Login} />
         <Route path='/register' component={Register} />
-        <Route path='/pegawai' component={Pegawai} />
-
+        <Route path='/jurusan' component={jurusan} />
+        <Route path='/pegawai' component={Pegawai} />
+        <Route path='/pelanggaran' component={Pelanggaran} />
+        
+        <Route path='/siswa' component={Siswa} />
+        <Route path='/pelanggaran_siswa' component={PelanggaranSiswa} />
     </Switch>
 )
 
